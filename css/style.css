@@ -15,8 +15,6 @@
   margin: 0;
   box-sizing: border-box;
   font-size: 15px;
-  /* font-weight: bold; */
-  /* font-family: "DM Serif Text", serif; */
   font-family: "Public Sans", sans-serif;
 }
 
@@ -27,13 +25,13 @@ body {
 
 header {
   overflow-x: hidden;
-  padding: 10px 100px 20px;
+  padding: 20px 100px;
   position: relative;
 
   .circle-pattern {
     position: absolute;
     z-index: -1;
-    top: -240px;
+    top: -260px;
     right: -200px;
   }
 
@@ -95,12 +93,6 @@ header {
 
       h1 {
         color: var(--juan-blue);
-
-        /* font-family: "Public Sans", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: <weight>;
-        font-style: normal; */
-
         font-family: "DM Serif Display", serif;
         font-style: normal;
         font-weight: normal;
@@ -308,6 +300,7 @@ header {
     font-weight: bold;
     font-style: 15px;
     color: var(--juan-blue);
+    width: 100%;
     &:hover {
       cursor: pointer;
     }
@@ -316,7 +309,7 @@ header {
   button {
     height: 48px;
     position: absolute;
-    right: 10px;
+    right: 0px;
     top: 20px;
     border: none;
     border-radius: 30px;
@@ -378,4 +371,12 @@ footer {
       }
     }
   }
+}
+
+/* means from 768px up to 1023 is for tablet as laptop starts from 1024px */
+@media (max-width: 1023px) {
+}
+
+/* means from 767px down to 0 is for phone as tablet starts from 768px */
+@media (max-width: 767px) {
 }
