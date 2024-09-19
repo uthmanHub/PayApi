@@ -373,10 +373,10 @@ footer {
   }
 }
 
-/* means from 768px up to 1023 is for tablet as laptop starts from 1024px */
-@media (max-width: 1023px) {
-}
-
 /* means from 767px down to 0 is for phone as tablet starts from 768px */
 @media (max-width: 767px) {
+}
+
+/* means from 768px up to 1023 is for tablet as laptop starts from 1024px */
+@media (max-width: 1023px) {
 }
